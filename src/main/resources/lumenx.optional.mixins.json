@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "dev.lumenx.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin",
+    "InGameOverlayRendererMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

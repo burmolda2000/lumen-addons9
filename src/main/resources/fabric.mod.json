@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "lumen-addons",
+  "version": "${version}",
+  "name": "Lumen Addons",
+  "description": "Item swap, trajectory prediction, shulker preview and weapon trails for Lumen Visuals.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.lumenx.LumenAddons"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "lumenx.mixins.json",
+      "environment": "client"
+    },
+    {
+      "config": "lumenx.optional.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "lumen": "*"
+  }
+}
